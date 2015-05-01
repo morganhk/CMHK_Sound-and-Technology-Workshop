@@ -12,7 +12,6 @@
 
 */
 #include <LiquidCrystal.h>
-#include "pitches.h"
 
 //Hold the LED pins
 const int ledR = 9;         // the pin that the Red LED is attached to

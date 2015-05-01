@@ -1,0 +1,1 @@
+Get the MIDI library from: https://github.com/FortySevenEffects/arduino_midi_library/releases/latest

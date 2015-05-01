@@ -12,7 +12,6 @@
 
 */
 #include <LiquidCrystal.h>
-#include "pitches.h"
 #include <MIDI.h>
 
 //Create the MIDI instrument
