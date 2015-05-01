@@ -4,10 +4,10 @@
   2015-05-02
   Public Domain
   
-  This script displays all the input values on the LCD
-  Press all 4 buttons to get a tone
-  The LED colors are controlled by the LRD
-  The Pot does nothing
+  This script is a MIDI instrument.
+  Btn 1,2,3 turn on the 3 notes.
+  Pot adjusts the speed
+  4th button is mute
   Code and PCB layout on http://morgan.isnot.in/CMHK/ElectronicsWorkshop
 
 */

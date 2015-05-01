@@ -4,10 +4,7 @@
   2015-05-02
   Public Domain
   
-  This script displays all the input values on the LCD
-  Press all 4 buttons to get a tone
-  The LED colors are controlled by the LRD
-  The Pot does nothing
+  This script tests Serial
   Code and PCB layout on http://morgan.isnot.in/CMHK/ElectronicsWorkshop
 
 */
