@@ -121,10 +121,10 @@ void loop() {
     MIDI.sendNoteOn(map(lrd1,0,1024, 30, 100),125,1);  // Send a Note scaled from 0-1024 to 30-100, 125 velocity on channel 1
   }
   if (btnStatus2){
-    MIDI.sendNoteOn(map(lrd2,0,1024, 30, 100),125,1);  // Send a Note scaled from 0-1024 to 30-100, 125 velocity on channel 1
+    MIDI.sendNoteOn(map(lrd2,0,1024, 30, 100),125,2);  // Send a Note scaled from 0-1024 to 30-100, 125 velocity on channel 2
   }
   if (btnStatus3){
-    MIDI.sendNoteOn(map(lrd3,0,1024, 30, 100),125,1);  // Send a Note scaled from 0-1024 to 30-100, 125 velocity on channel 1
+    MIDI.sendNoteOn(map(lrd3,0,1024, 30, 100),125,3);  // Send a Note scaled from 0-1024 to 30-100, 125 velocity on channel 3
   }
   delay(map(pot1,0,1024, 0, 800));		        // Wait for delay based on pot
   
@@ -137,10 +137,10 @@ void loop() {
     MIDI.sendNoteOff(map(lrd1,0,1024, 30, 100),0,1);   // Stop the note
   }
   if (btnStatus2){
-  MIDI.sendNoteOff(map(lrd2,0,1024, 30, 100),0,1);   // Stop the note
+  MIDI.sendNoteOff(map(lrd2,0,1024, 30, 100),0,2);   // Stop the note
   }
   if (btnStatus3){
-  MIDI.sendNoteOff(map(lrd3,0,1024, 30, 100),0,1);   // Stop the note
+  MIDI.sendNoteOff(map(lrd3,0,1024, 30, 100),0,3);   // Stop the note
   }
   
   //Delay the loop
